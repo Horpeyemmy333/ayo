@@ -1,0 +1,11 @@
+@media screen and (max-width: 768px)  {
+main{
+    max-width: 90%;
+}
+.hero{
+display: flex;
+align-items: center;
+flex-wrap: wrap;
+}
+}
+

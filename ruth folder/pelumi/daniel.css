@@ -1,0 +1,45 @@
+:root{
+    --fgcolor:#9523a3;
+    --bgcolor:#ffff;
+    --primary:#5ef;
+}
+body{
+    margin:0 auto;
+    box-sizing: border-box;
+    background-color: white;
+    color: black;
+
+
+}
+header{
+    margin: 30px;
+    padding: 20px;
+    background-color: var(--bgcolor);
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero{
+    width: 200px;
+}
+.hero-text{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    gap: 30px;
+}
+button{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 30px;
+    border: blue;
+}
+.benefit{
+text-align: center;
+}
+

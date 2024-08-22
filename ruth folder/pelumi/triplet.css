@@ -1,0 +1,9 @@
+@media screen and (max-width: 940px)  {
+main{
+    max-width: 90%;
+    margin: 0 auto;
+}
+.hero{
+    display:block;
+}
+}  
